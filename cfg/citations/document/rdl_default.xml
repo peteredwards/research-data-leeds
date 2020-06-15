@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+
+<!-- 
+	ReCollectDocument citation style (brief)
+-->
+
+<cite:citation xmlns="http://www.w3.org/1999/xhtml" xmlns:cite="http://eprints.org/ep3/citation" xmlns:epc="http://eprints.org/ep3/control">
+
+<!-- document citations -->
+
+
+<div id="_doc_{docid}_file_meta" class="ep_summary_box">
+  <div class="ep_summary_box_title">
+    <div class="ep_no_js">
+      <cite:linkhere><span class="ep_document_citation"><epc:print expr='main'/></span></cite:linkhere>
+    </div>
+    <div id="_doc_{docid}_file_meta_colbar" class="ep_only_js">
+      <a href="#" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_{docid}_file_meta_content',true,'_doc_{docid}_file_meta');EPJS_toggle('_doc_{docid}_file_meta_colbar',true);EPJS_toggle('_doc_{docid}_file_meta_bar',false);return false" class="ep_box_collapse_link">
+        <img border="0" src="/style/images/plus.png" alt="-" />
+      </a>
+      <cite:linkhere><span class="ep_document_citation"><epc:print expr='main'/></span></cite:linkhere>
+    </div>
+      <div id="_doc_{docid}_file_meta_bar" class="ep_only_js" style="display:none;">
+        <a href="#" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_{docid}_file_meta_content',false,'_doc_{docid}_file_meta');EPJS_toggle('_doc_{docid}_file_meta_colbar',false);EPJS_toggle('_doc_{docid}_file_meta_bar',true);return false" class="ep_box_collapse_link">
+          <img border="0" src="/style/images/minus.png" alt="+"/>
+        </a>
+        <cite:linkhere><span class="ep_document_citation"><epc:print expr='main'/></span></cite:linkhere>
+      </div>
+    </div>
+    <div style="display: none;" id="_doc_{docid}_file_meta_content" class="ep_summary_box_body">
+      <div id="_doc_{docid}_file_meta_content_inner">
+        <div class="rd_full" id="_doc_{docid}_filemetadiv">
+          <table width="100%" cellpadding="2" border="0" id="filemeta">
+            <tbody>
+              <tr>
+                <th valign="top" class="ep_row"><epc:phrase ref="document_fieldname_security"/>:</th>
+                <td valign="top" class="ep_row"><epc:print expr="security"/></td>
+              </tr>
+              <tr>
+                <th valign="top" class="ep_row"><epc:phrase ref="document_fieldname_content"/>:</th>
+                <td valign="top" class="ep_row"><epc:phrase ref="recollect_content_typename_{content.as_string()}" /></td>
+              </tr>
+              <tr>
+                <th valign="top" class="ep_row"><epc:phrase ref="document_fieldname_formatdesc"/>:</th>
+                <td valign="top" class="ep_row"><epc:print expr="formatdesc"/></td>
+              </tr>
+              <tr>
+                <th valign="top" class="ep_row"><epc:phrase ref="document_fieldname_rev_number"/>:</th>
+                <td valign="top" class="ep_row"><epc:print expr="rev_number"/></td>
+              </tr>
+              <tr>
+                <th valign="top" class="ep_row"><epc:phrase ref="file_fieldname_mime_type"/>:</th>
+                <td valign="top" class="ep_row"><epc:print expr="mime_type"/></td>
+              </tr>
+              <tr>
+                <th valign="top" class="ep_row"><epc:phrase ref="document_fieldname_filesize"/>:</th>
+                <td valign="top" class="ep_row"><epc:print expr="human_filesize($item.doc_size())"/></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+     </div>
+  </div>
+</div>
+
+
+</cite:citation>

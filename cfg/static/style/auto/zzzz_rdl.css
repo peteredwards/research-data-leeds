@@ -1,0 +1,212 @@
+
+/* 
+ * This CSS file will be applied after all the built in styles.
+ * 
+ * CSS files are loaded in alphabetic order, hence the  "zzz" in 
+ * the filename to force it to load after the other css files!
+ * 
+ * Add any local over-rides here. 
+ * 
+ * To totally replace a system css file, create a file of the same 
+ * name in this directory. eg. messages.css
+ * 
+ */
+
+
+/* typography */
+
+h1, h2{
+	font-weight:normal;
+}
+
+h1 {
+	font-size:170%;
+}
+
+h2 {
+	font-size:130%;
+}
+
+.rd_text_center {
+
+	text-align:center;
+}
+
+/* branding */
+
+.ep_tm_header {
+	background-image: none;
+}
+
+.ep_tm_site_logo img {
+	border-style: none;
+	float: left;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.ep_tm_archivetitle {
+	display: none;
+}
+
+/*main content */
+
+.ep_tm_page_content{
+	width:910px;
+	padding: 25px;
+	/* 	border: 1px solid #CCC; */
+	background-color: #FEFEFE; 
+	padding-bottom:50px;
+}
+
+.ep_tm_pagetitle {
+	font-weight: normal;
+}
+
+/* files box */
+
+.files_box .ep_summary_box_title a {
+	font-size: 95%;
+	text-decoration: none;
+}
+
+.ep_summary_content_main p .person_name {	
+	font-size:130%;
+
+}
+
+.rd_citation_right .file_list_heading {
+	margin-bottom:0;
+
+}
+
+.rd_citation_right .file_title {
+	padding-bottom: 2px;
+	color: black;
+	font-size: 110%;
+	border-bottom: 1px dashed #CCC;
+} 
+
+.rd_citation_right .ep_summary_box {
+	margin-bottom:0;
+}
+
+.rd_citation_right{
+	/* width:33%; */
+	margin-right:0px;
+	/* float:right; */
+	border: 1px solid #ddd;
+	margin-top:1em;
+	background-color: white;
+	padding: 1em 1em 2em 1em;
+	border-radius: 2px;
+}
+
+
+/* citation core and extended metadata */ 
+
+.rd_citation_left{
+	/* width:62%; */
+	float:left;
+	margin-top: 1em;
+}
+
+
+.rd_citation_left .ep_summary_box {
+	margin-top:20px;
+	padding:2px 0px;
+}
+
+.rd_citation_left .ep_summary_box_body {
+	padding: 2px 0px;
+}
+
+.rd_citation_left .ep_summary_box_title, .rd_citation_right .ep_summary_box_title, .rd_upload_doc_title_bar .ep_summary_box_title { 
+	padding: 2px 6px 4px 6px;
+	border-style: dashed;
+	border-width: 0px 0px 1px 0px;
+	background-image: none;
+	background-color: transparent;
+}
+
+.rd_upload_doc_title_bar .ep_summary_box_title { 
+	border-style: none;
+	border-width: 0px;
+}
+.rd_citation_left .ep_summary_box_body, .rd_citation_right .ep_summary_box_body, .rd_upload_doc_title_bar .ep_summary_box_body {
+	border-width: 0px;
+	background-image: none;
+	background-color: transparent;
+
+}
+
+tr.main_meta_table_row th {
+	width:30%;
+	border-bottom:1px dashed #999;
+
+}
+
+tr.main_meta_table_row td {
+	border-bottom:1px dashed #999;
+	border-left:1px dashed #999;
+	padding:0.5em;	
+}
+
+.rd_metatable_td table, .rd_metatable_td table tr, .rd_metatable_td table th, .rd_metatable_td table td, .rd_metatable_td th, .rd_metatable_td tr, .rd_metatable_td td {
+	border: 0;
+}
+
+.rd_metatable_td table tr, .rd_metatable_td table td {
+	border: 1px dashed #eee;
+}
+
+.rd_metatable_td table th {
+	border-bottom: 1px dashed #999;
+	border-right: 1px dashed #999;
+}
+
+.rd_metatable_td table td {
+	border-right: 1px dashed #999;
+}
+
+tr.additional_meta_link{
+	background-color:#eeeeee;
+	border:1px solid #999999;
+}
+
+.ep_doc_icon{
+	width:32px;
+}
+
+span.doc_additional_meta_link {
+
+	display:block;
+	float:right;
+}
+
+span.doc_additional_meta_link a {
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+span.document_filename, span.ep_document_licence, span.ep_document_security, span.ep_document_rev_number, span.ep_document_mime_type {
+	display:block;
+	font-size:85%;
+	margin-top:-7px;
+}
+
+span.ep_document_security {
+	color:red;
+
+}       
+
+span.document_format{
+	display: block;
+}
+
+
+
+
